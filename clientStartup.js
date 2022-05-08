@@ -68,7 +68,7 @@ async function excluirStartup(code){
 }
 
 
-//consultarStartups();
+consultarStartups();
 //cadastrarStartup(998, "startup teste 1", "fundador brabo");
 //consultarStartupPorCodigo(998);
 //alterarStartup(1, "Nubank", "Cristina");

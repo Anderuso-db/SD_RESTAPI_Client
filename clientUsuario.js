@@ -63,11 +63,11 @@ async function alterarUsuario(codigo, nome, founders){
 }
 
 async function excluirUsuario(code){
-    let response = (await axios.delete(`${endpointUsuario}/ExcluirFundador/${code}`, head)).data;
+    let response = (await axios.delete(`${endpointUsuario}/ExcluirFundador/${code}`, head)).data;  
     console.log(response);
 }
 
-//consultarUsuarios();
+consultarUsuarios();
 //cadastrarUsuario(998, "usuario teste 1", "fundador brabo");
 //consultarUsuarioPorCodigo(998);
 //alterarUsuario(1, "Nubank", "Cristina");
